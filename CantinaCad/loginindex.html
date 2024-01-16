@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <title>Cantina Online</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon/fav.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- custom js file link  -->
+    <script defer src="/CantinaJS/java.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <header class="main-header">
+
+        <div class="header">
+            <a href="/CantinaConsulta/consulta.php" class="logo">Cantina Online</a>
+
+            <div class="header-right">
+
+                
+                <a href="/CantinaProduto/cadproduto.html">Cadastro Produtos</a>
+                <a href="/CantinaConsultaProduto/consulta.php">Consulta Produtos</a>
+                <a href="/CantinaConsulta/consulta.php">Consulta Usuários</a>
+                <a href="loginindex.html">Home</a>
+                <!--<a href="#contact">Contato</a>
+                <a href="#about">Quem Somos</a>-->
+
+                
+    
+                <!--<a href="cadastro.html">Cadastre-se</a>-->
+                <a href="#about">Logado</a>
+                <a class="active" href="/CantinaIndex/index.html">Sair</a>
+                <!-- <a href="carrinho.html"><img src="/img/carrinhocon.ico"></a> -->
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <h3 class="title"> </h3>
+
+        <div class="products-container">
+
+            <div class="product" data-name="p-1">
+                <img src="img/produtos/coxinha3.png" alt="">
+                <h3>Coxinha</h3>
+                <div class="price">R$3.50</div>
+            </div>
+
+            <div class="product" data-name="p-2">
+                <img src="img/produtos/cocacola.png" alt="">
+                <h3>Coca-Cola</h3>
+                <div class="price">R$2.50</div>
+            </div>
+
+            <div class="product" data-name="p-3">
+                <img src="img/produtos/batata1 (1).png" alt="">
+                <h3>Salgadinho Batata</h3>
+                <div class="price">R$4.00</div>
+            </div>
+
+            <div class="product" data-name="p-4">
+                <img src="img/produtos/chagelado.png" alt="">
+                <h3>Chá Gelado</h3>
+                <div class="price">R$4.50</div>
+            </div>
+
+            <div class="product" data-name="p-5">
+                <img src="img/produtos/bis2.png" alt="">
+                <h3>Chocolate</h3>
+                <div class="price">R$1.50</div>
+            </div>
+
+            <div class="product" data-name="p-6">
+                <img src="img/produtos/pastel.png" alt="">
+                <h3>Pastel</h3>
+                <div class="price">R$3.50</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="products-preview">
+
+        <div class="preview" data-target="p-1">
+            <i class="fas fa-times"></i>
+            <h3>Coxinha Frita na Hora</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>( 18 )</span>
+            </div>
+            <p>Coxinha Pronta e Produzida na hora</p>
+            <div class="price">R$3.50</div>
+            <div class="buttons">
+                <a href="#" class="buy">Compre agora</a>
+                <a href="#" class="cart">Carrinho</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-2">
+            <i class="fas fa-times"></i>
+            <h3>Coca Cola Gelada</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>( 02 )</span>
+            </div>
+            <p>Coca-cola em lata</p>
+            <div class="price">R$2.50</div>
+            <div class="buttons">
+                <a href="#" class="buy">Compre Agora</a>
+                <a href="#" class="cart">Carrinho</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-3">
+            <i class="fas fa-times"></i>
+            <h3>Salgadinho Lay's</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>( 06 )</span>
+            </div>
+            <p>Salgadinho pacote Batata Lay's</p>
+            <div class="price">R$4.00</div>
+            <div class="buttons">
+                <a href="#" class="buy">Compre Agora</a>
+                <a href="#" class="cart">Carrinho</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-4">
+            <i class="fas fa-times"></i>
+            <h3>Chá gelado</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>( 01 )</span>
+            </div>
+            <p>Chá gelado Matte leão</p>
+            <div class="price">R$4.50</div>
+            <div class="buttons">
+                <a href="#" class="buy">Compre Agora</a>
+                <a href="#" class="cart">Carrinho</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-5">
+            <i class="fas fa-times"></i>
+            <h3>Chocolate </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>( 09 )</span>
+            </div>
+            <p>Chocolate bis extra</p>
+            <div class="price">R$1.50</div>
+            <div class="buttons">
+                <a href="#" class="buy">Compre agora</a>
+                <a href="#" class="cart">Carrinho</a>
+            </div>
+        </div>
+
+        <div class="preview" data-target="p-6">
+            <i class="fas fa-times"></i>
+            <h3>Pastel</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>( 19 )</span>
+            </div>
+            <p>Pastel Frito na hora</p>
+            <div class="price">R$3.50</div>
+            <div class="buttons">
+                <a href="#" class="buy">Compre Agora</a>
+                <a href="#" class="cart">Carrinho</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
